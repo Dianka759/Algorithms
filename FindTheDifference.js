@@ -3,6 +3,9 @@
 var findTheDifference = function (s, t) {
     sortedS = s.split('').sort();
     sortedT = t.split('').sort();
+    
+    // console.log(sortedS)
+    // console.log(sortedT)
 
     for (let i = 0; i < sortedT.length; i++) {
         if (sortedS[i] !== sortedT[i]) {
@@ -14,6 +17,7 @@ var findTheDifference = function (s, t) {
 console.log(findTheDifference("abcd", "abcde"))
 
 
+//  Works for multiple letter/numbers differences. 
 // const stringDiff = (str1, str2) => {
 //     for (var i = 0; i < str2.length; i++) {
 //         var placer = str1.indexOf(str2[i])
@@ -24,4 +28,4 @@ console.log(findTheDifference("abcd", "abcde"))
 //         }
 //     } return str2
 // }
-// console.log(stringDiff("abcd", "abcde"));
+// console.log(stringDiff("abcd", "abcdetr"));
