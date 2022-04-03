@@ -46,7 +46,6 @@ var isValid = function (s) {
     return order.length === 0;
 }
 
-console.log(isValid("p"))
 console.log(isValid("("))
 console.log(isValid("()"))
 console.log(isValid("([)"))
